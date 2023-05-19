@@ -1,0 +1,5 @@
+{
+    "server": 
+    ["src", "bootstrap.css"],
+        "port": 3000
+}
