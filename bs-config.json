@@ -1,5 +1,8 @@
 {
-    "server": 
-    ["src", "bootstrap.css"],
-        "port": 3000
+    "server":[
+        "src",
+        "node_modules/bootstrap/dist/css",
+        "node_modules/bootstrap/dist/js"
+
+    ]
 }

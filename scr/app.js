@@ -11,15 +11,15 @@ const state = {
     host: 'http://localhost:8000/',
     ships: []
 };
- 
+
 window.addEventListener('load', () => {
     init();
 });
- 
+
 function init() {
     getShip();
 }
- 
+
 function getShip() {
     let endpoint = 'ships';
     let url = state.host + endpoint;
@@ -31,7 +31,7 @@ function getShip() {
         render();
     });
 }
- 
+
 function render() {
     var rows = '';
     state.ships.forEach( ships => {
